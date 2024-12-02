@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pattern-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  height: 100vh; 
+}
+
+.pattern-row {
+  font-family: monospace; 
+}
+
+.big-star {
+  font-size: 2rem; 
+}
+
+.pattern-containers{
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
